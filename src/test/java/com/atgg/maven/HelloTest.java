@@ -7,5 +7,6 @@ public class HelloTest {
 		Hello hello = new Hello();
 		String results = hello.sayHello("litingwei");
 		assertEquals("Hello litingwei!",results);	 //断言
+		System.out.println(results);
 	}
 }
